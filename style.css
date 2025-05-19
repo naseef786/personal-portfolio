@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #be9f9f;
+  }
+  
+  body, html {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+    color: #333;
+  }
+  
+  header.hero {
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1600x900/?technology,developer');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    color: white;
+  }
+  
+  .hero-text span {
+    color: #00d8ff;
+  }
+  
+  .hero-text p {
+    color: #eee;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+  }
+  
+  .section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00d8ff;
+  }
+  
+  .section ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .section ul li {
+    background: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .parallax {
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .parallax-1 {
+    background-image: url('https://source.unsplash.com/1600x900/?code');
+  }
+  
+  .parallax-2 {
+    background-image: url('https://source.unsplash.com/1600x900/?programming');
+  }
+  
+  .parallax-3 {
+    background-image: url('https://source.unsplash.com/1600x900/?laptop');
+  }
+  
+  footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
